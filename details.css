@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #0b0c10;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+body.hazardous {
+  background-image: url("https://c02.purpledshub.com/uploads/sites/41/2023/09/asteroid-bennuu.jpg?w=1029&webp=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.safe {
+  background-image: url("https://www-cdn.eumetsat.int/files/2022-03/earth-space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
